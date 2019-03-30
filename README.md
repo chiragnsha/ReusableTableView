@@ -21,4 +21,9 @@ ReusableTableViewDataManager expects objects confirming to protocols:
 - Mail app - This ViewController loads a sample data of Mails with unread state.
 - Whatsapp - This screen is similar to whatsapp's chat list - screen was designed in storyboard (this module works with storyboard screens also.)
 - Messages - This screen shows a threaded conversation like in messages app.
-- AppStore - This screen demonstrates app-search like in stock Appstore app (using AppTweak for API).s
+- AppStore - This screen demonstrates app-search like in stock Appstore app (using AppTweak for API)
+
+## AppDemo - UI
+
+![Alt text](appdemo.gif?raw=true "Optional Title")
+
