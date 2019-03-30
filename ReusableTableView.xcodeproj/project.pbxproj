@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0B867122495DD30005EB24 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B867022495DD30005EB24 /* Call.swift */; };
+		6F0B8673224A33370005EB24 /* CallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B8672224A33370005EB24 /* CallCell.swift */; };
+		6F0B8676224A5C180005EB24 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B8675224A5C180005EB24 /* UIImage+Extension.swift */; };
+		6F0B8678224A6A1B0005EB24 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B8677224A6A1B0005EB24 /* MessageCell.swift */; };
+		6F0B867A224AA3FC0005EB24 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B8679224AA3FC0005EB24 /* Message.swift */; };
+		6F16452222478C0E0087D95C /* WhatsappTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F16452022478C0E0087D95C /* WhatsappTableViewController.swift */; };
+		6F16452522478D910087D95C /* Whatsapp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F16452422478D910087D95C /* Whatsapp.storyboard */; };
+		6F1645272247A0440087D95C /* WhatsappCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1645262247A0440087D95C /* WhatsappCell.swift */; };
+		6F1645292247A0540087D95C /* WhatsappChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1645282247A0540087D95C /* WhatsappChat.swift */; };
+		6F16452B2247C3BC0087D95C /* WhatsappCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F16452A2247C3BC0087D95C /* WhatsappCellXIB.xib */; };
+		6F16452E224803C90087D95C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F16452D224803C90087D95C /* API.swift */; };
+		6F164530224807620087D95C /* CallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F16452F224807620087D95C /* CallsViewController.swift */; };
+		6F9564B1224D1844004E6CDE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9564B0224D1844004E6CDE /* App.swift */; };
+		6F9564B3224D49BB004E6CDE /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9564B2224D49BB004E6CDE /* AppCell.swift */; };
+		6FDB40D322440DBA005BC6F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40D222440DBA005BC6F2 /* AppDelegate.swift */; };
+		6FDB40D522440DBA005BC6F2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40D422440DBA005BC6F2 /* TabBarController.swift */; };
+		6FDB40DA22440DC1005BC6F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FDB40D922440DC1005BC6F2 /* Assets.xcassets */; };
+		6FDB40E822440E36005BC6F2 /* ReusableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40E722440E36005BC6F2 /* ReusableTableView.swift */; };
+		6FDB40EB2244A107005BC6F2 /* ContactsViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40EA2244A107005BC6F2 /* ContactsViewController2.swift */; };
+		6FDB40ED2244A3D6005BC6F2 /* ReusableTableViewDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40EC2244A3D6005BC6F2 /* ReusableTableViewDataManager.swift */; };
+		6FDB40EF2244A41F005BC6F2 /* ReusableTableViewDataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40EE2244A41F005BC6F2 /* ReusableTableViewDataManagerProtocol.swift */; };
+		6FDB40F12244A4AD005BC6F2 /* ReusableDataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40F02244A4AD005BC6F2 /* ReusableDataProviderProtocol.swift */; };
+		6FDB40F32244A4C0005BC6F2 /* ReusableDataBinderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40F22244A4C0005BC6F2 /* ReusableDataBinderProtocol.swift */; };
+		6FDB40F72244B36B005BC6F2 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB40F62244B36B005BC6F2 /* MyTableViewCell.swift */; };
+		6FF9F1DE2244CFA400207E05 /* ReusableTableViewContainerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1DD2244CFA400207E05 /* ReusableTableViewContainerProtocol.swift */; };
+		6FF9F1E02244E5CE00207E05 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1DF2244E5CE00207E05 /* MailViewController.swift */; };
+		6FF9F1E22244E5D900207E05 /* WhatsappViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1E12244E5D900207E05 /* WhatsappViewController.swift */; };
+		6FF9F1E42244E5E700207E05 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1E32244E5E700207E05 /* MessagesViewController.swift */; };
+		6FF9F1E62244E5FD00207E05 /* AppStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1E52244E5FD00207E05 /* AppStoreViewController.swift */; };
+		6FF9F1E82244E6F700207E05 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1E72244E6F700207E05 /* ContactsTableViewCell.swift */; };
+		6FF9F1EE2244E94700207E05 /* MailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1ED2244E94700207E05 /* MailCell.swift */; };
+		6FF9F1F02244E96D00207E05 /* MailDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1EF2244E96D00207E05 /* MailDataManager.swift */; };
+		6FF9F1F22244E97D00207E05 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1F12244E97D00207E05 /* Mail.swift */; };
+		6FF9F1F6224507C200207E05 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF9F1F5224507C200207E05 /* UIColor+Extension.swift */; };
+		6FF9F1F822450A8100207E05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF9F1F722450A8100207E05 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F0B867022495DD30005EB24 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		6F0B8672224A33370005EB24 /* CallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCell.swift; sourceTree = "<group>"; };
+		6F0B8675224A5C180005EB24 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		6F0B8677224A6A1B0005EB24 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		6F0B8679224AA3FC0005EB24 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6F16452022478C0E0087D95C /* WhatsappTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappTableViewController.swift; sourceTree = "<group>"; };
+		6F16452422478D910087D95C /* Whatsapp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Whatsapp.storyboard; sourceTree = "<group>"; };
+		6F1645262247A0440087D95C /* WhatsappCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappCell.swift; sourceTree = "<group>"; };
+		6F1645282247A0540087D95C /* WhatsappChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappChat.swift; sourceTree = "<group>"; };
+		6F16452A2247C3BC0087D95C /* WhatsappCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatsappCellXIB.xib; sourceTree = "<group>"; };
+		6F16452D224803C90087D95C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6F16452F224807620087D95C /* CallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsViewController.swift; sourceTree = "<group>"; };
+		6F9564B0224D1844004E6CDE /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		6F9564B2224D49BB004E6CDE /* AppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		6FDB40CF22440DBA005BC6F2 /* ReusableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDB40D222440DBA005BC6F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FDB40D422440DBA005BC6F2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6FDB40D922440DC1005BC6F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FDB40DE22440DC1005BC6F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDB40E722440E36005BC6F2 /* ReusableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableView.swift; sourceTree = "<group>"; };
+		6FDB40EA2244A107005BC6F2 /* ContactsViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController2.swift; sourceTree = "<group>"; };
+		6FDB40EC2244A3D6005BC6F2 /* ReusableTableViewDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewDataManager.swift; sourceTree = "<group>"; };
+		6FDB40EE2244A41F005BC6F2 /* ReusableTableViewDataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewDataManagerProtocol.swift; sourceTree = "<group>"; };
+		6FDB40F02244A4AD005BC6F2 /* ReusableDataProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableDataProviderProtocol.swift; sourceTree = "<group>"; };
+		6FDB40F22244A4C0005BC6F2 /* ReusableDataBinderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableDataBinderProtocol.swift; sourceTree = "<group>"; };
+		6FDB40F62244B36B005BC6F2 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		6FF9F1DD2244CFA400207E05 /* ReusableTableViewContainerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewContainerProtocol.swift; sourceTree = "<group>"; };
+		6FF9F1DF2244E5CE00207E05 /* MailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		6FF9F1E12244E5D900207E05 /* WhatsappViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappViewController.swift; sourceTree = "<group>"; };
+		6FF9F1E32244E5E700207E05 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		6FF9F1E52244E5FD00207E05 /* AppStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
+		6FF9F1E72244E6F700207E05 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		6FF9F1ED2244E94700207E05 /* MailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCell.swift; sourceTree = "<group>"; };
+		6FF9F1EF2244E96D00207E05 /* MailDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailDataManager.swift; sourceTree = "<group>"; };
+		6FF9F1F12244E97D00207E05 /* Mail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		6FF9F1F5224507C200207E05 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		6FF9F1F722450A8100207E05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDB40CC22440DBA005BC6F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F16451F22478BE20087D95C /* Whatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				6F16452422478D910087D95C /* Whatsapp.storyboard */,
+				6F16452022478C0E0087D95C /* WhatsappTableViewController.swift */,
+				6F1645262247A0440087D95C /* WhatsappCell.swift */,
+				6F1645282247A0540087D95C /* WhatsappChat.swift */,
+				6F16452A2247C3BC0087D95C /* WhatsappCellXIB.xib */,
+			);
+			path = Whatsapp;
+			sourceTree = "<group>";
+		};
+		6F16452C224803B50087D95C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6F16452D224803C90087D95C /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6F9564A9224C06F7004E6CDE /* AppStore */ = {
+			isa = PBXGroup;
+			children = (
+				6FF9F1E52244E5FD00207E05 /* AppStoreViewController.swift */,
+				6F9564B0224D1844004E6CDE /* App.swift */,
+				6F9564B2224D49BB004E6CDE /* AppCell.swift */,
+			);
+			path = AppStore;
+			sourceTree = "<group>";
+		};
+		6FDB40C622440DBA005BC6F2 = {
+			isa = PBXGroup;
+			children = (
+				6FDB40D122440DBA005BC6F2 /* ReusableTableView */,
+				6FDB40D022440DBA005BC6F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FDB40D022440DBA005BC6F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FDB40CF22440DBA005BC6F2 /* ReusableTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FDB40D122440DBA005BC6F2 /* ReusableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6F16452C224803B50087D95C /* API */,
+				6F9564A9224C06F7004E6CDE /* AppStore */,
+				6F16451F22478BE20087D95C /* Whatsapp */,
+				6FF9F1F42245079500207E05 /* Extensions */,
+				6FF9F1EB2244E8F100207E05 /* Mail */,
+				6FF9F1EA2244E7A000207E05 /* Messages */,
+				6FF9F1E92244E79500207E05 /* Phone */,
+				6FDB40F42244B328005BC6F2 /* Views */,
+				6FDB40E92244A0E5005BC6F2 /* ViewControllers */,
+				6FDB40E522440DFE005BC6F2 /* Models */,
+				6FDB40E422440DEE005BC6F2 /* ReusableCompoents */,
+				6FDB40D222440DBA005BC6F2 /* AppDelegate.swift */,
+				6FDB40D422440DBA005BC6F2 /* TabBarController.swift */,
+				6FDB40D922440DC1005BC6F2 /* Assets.xcassets */,
+				6FDB40DE22440DC1005BC6F2 /* Info.plist */,
+				6FF9F1F722450A8100207E05 /* Images.xcassets */,
+			);
+			path = ReusableTableView;
+			sourceTree = "<group>";
+		};
+		6FDB40E422440DEE005BC6F2 /* ReusableCompoents */ = {
+			isa = PBXGroup;
+			children = (
+				6FDB40E622440E0F005BC6F2 /* Protocols */,
+				6FDB40E722440E36005BC6F2 /* ReusableTableView.swift */,
+				6FDB40EC2244A3D6005BC6F2 /* ReusableTableViewDataManager.swift */,
+			);
+			path = ReusableCompoents;
+			sourceTree = "<group>";
+		};
+		6FDB40E522440DFE005BC6F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FDB40E622440E0F005BC6F2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6FDB40EE2244A41F005BC6F2 /* ReusableTableViewDataManagerProtocol.swift */,
+				6FDB40F02244A4AD005BC6F2 /* ReusableDataProviderProtocol.swift */,
+				6FDB40F22244A4C0005BC6F2 /* ReusableDataBinderProtocol.swift */,
+				6FF9F1DD2244CFA400207E05 /* ReusableTableViewContainerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6FDB40E92244A0E5005BC6F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FDB40EA2244A107005BC6F2 /* ContactsViewController2.swift */,
+				6FF9F1E12244E5D900207E05 /* WhatsappViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6FDB40F42244B328005BC6F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FDB40F52244B32D005BC6F2 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FDB40F52244B32D005BC6F2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6FDB40F62244B36B005BC6F2 /* MyTableViewCell.swift */,
+				6FF9F1E72244E6F700207E05 /* ContactsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6FF9F1E92244E79500207E05 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				6F16452F224807620087D95C /* CallsViewController.swift */,
+				6F0B867022495DD30005EB24 /* Call.swift */,
+				6F0B8672224A33370005EB24 /* CallCell.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		6FF9F1EA2244E7A000207E05 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				6FF9F1E32244E5E700207E05 /* MessagesViewController.swift */,
+				6F0B8677224A6A1B0005EB24 /* MessageCell.swift */,
+				6F0B8679224AA3FC0005EB24 /* Message.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		6FF9F1EB2244E8F100207E05 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				6FF9F1DF2244E5CE00207E05 /* MailViewController.swift */,
+				6FF9F1ED2244E94700207E05 /* MailCell.swift */,
+				6FF9F1EF2244E96D00207E05 /* MailDataManager.swift */,
+				6FF9F1F12244E97D00207E05 /* Mail.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		6FF9F1F42245079500207E05 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6FF9F1F5224507C200207E05 /* UIColor+Extension.swift */,
+				6F0B8675224A5C180005EB24 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FDB40CE22440DBA005BC6F2 /* ReusableTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FDB40E122440DC1005BC6F2 /* Build configuration list for PBXNativeTarget "ReusableTableView" */;
+			buildPhases = (
+				6FDB40CB22440DBA005BC6F2 /* Sources */,
+				6FDB40CC22440DBA005BC6F2 /* Frameworks */,
+				6FDB40CD22440DBA005BC6F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReusableTableView;
+			productName = ReusableTableView;
+			productReference = 6FDB40CF22440DBA005BC6F2 /* ReusableTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FDB40C722440DBA005BC6F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chirag N Shah";
+				TargetAttributes = {
+					6FDB40CE22440DBA005BC6F2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FDB40CA22440DBA005BC6F2 /* Build configuration list for PBXProject "ReusableTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FDB40C622440DBA005BC6F2;
+			productRefGroup = 6FDB40D022440DBA005BC6F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FDB40CE22440DBA005BC6F2 /* ReusableTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FDB40CD22440DBA005BC6F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDB40DA22440DC1005BC6F2 /* Assets.xcassets in Resources */,
+				6FF9F1F822450A8100207E05 /* Images.xcassets in Resources */,
+				6F16452522478D910087D95C /* Whatsapp.storyboard in Resources */,
+				6F16452B2247C3BC0087D95C /* WhatsappCellXIB.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FDB40CB22440DBA005BC6F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF9F1F22244E97D00207E05 /* Mail.swift in Sources */,
+				6FF9F1F6224507C200207E05 /* UIColor+Extension.swift in Sources */,
+				6F0B867122495DD30005EB24 /* Call.swift in Sources */,
+				6F9564B1224D1844004E6CDE /* App.swift in Sources */,
+				6FDB40ED2244A3D6005BC6F2 /* ReusableTableViewDataManager.swift in Sources */,
+				6F0B867A224AA3FC0005EB24 /* Message.swift in Sources */,
+				6FDB40EB2244A107005BC6F2 /* ContactsViewController2.swift in Sources */,
+				6FF9F1E82244E6F700207E05 /* ContactsTableViewCell.swift in Sources */,
+				6F164530224807620087D95C /* CallsViewController.swift in Sources */,
+				6FF9F1E42244E5E700207E05 /* MessagesViewController.swift in Sources */,
+				6FF9F1E22244E5D900207E05 /* WhatsappViewController.swift in Sources */,
+				6FDB40EF2244A41F005BC6F2 /* ReusableTableViewDataManagerProtocol.swift in Sources */,
+				6FDB40D522440DBA005BC6F2 /* TabBarController.swift in Sources */,
+				6F16452222478C0E0087D95C /* WhatsappTableViewController.swift in Sources */,
+				6FF9F1E62244E5FD00207E05 /* AppStoreViewController.swift in Sources */,
+				6F0B8678224A6A1B0005EB24 /* MessageCell.swift in Sources */,
+				6FDB40F32244A4C0005BC6F2 /* ReusableDataBinderProtocol.swift in Sources */,
+				6FDB40F72244B36B005BC6F2 /* MyTableViewCell.swift in Sources */,
+				6FF9F1DE2244CFA400207E05 /* ReusableTableViewContainerProtocol.swift in Sources */,
+				6FF9F1E02244E5CE00207E05 /* MailViewController.swift in Sources */,
+				6F16452E224803C90087D95C /* API.swift in Sources */,
+				6FF9F1EE2244E94700207E05 /* MailCell.swift in Sources */,
+				6FDB40F12244A4AD005BC6F2 /* ReusableDataProviderProtocol.swift in Sources */,
+				6F1645272247A0440087D95C /* WhatsappCell.swift in Sources */,
+				6F0B8676224A5C180005EB24 /* UIImage+Extension.swift in Sources */,
+				6F0B8673224A33370005EB24 /* CallCell.swift in Sources */,
+				6FDB40E822440E36005BC6F2 /* ReusableTableView.swift in Sources */,
+				6FDB40D322440DBA005BC6F2 /* AppDelegate.swift in Sources */,
+				6FF9F1F02244E96D00207E05 /* MailDataManager.swift in Sources */,
+				6F9564B3224D49BB004E6CDE /* AppCell.swift in Sources */,
+				6F1645292247A0540087D95C /* WhatsappChat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FDB40DF22440DC1005BC6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FDB40E022440DC1005BC6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FDB40E222440DC1005BC6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FVB3W9899;
+				INFOPLIST_FILE = ReusableTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.tableview.reuse.ReusableTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FDB40E322440DC1005BC6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FVB3W9899;
+				INFOPLIST_FILE = ReusableTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.tableview.reuse.ReusableTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FDB40CA22440DBA005BC6F2 /* Build configuration list for PBXProject "ReusableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDB40DF22440DC1005BC6F2 /* Debug */,
+				6FDB40E022440DC1005BC6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDB40E122440DC1005BC6F2 /* Build configuration list for PBXNativeTarget "ReusableTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDB40E222440DC1005BC6F2 /* Debug */,
+				6FDB40E322440DC1005BC6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FDB40C722440DBA005BC6F2 /* Project object */;
+}
