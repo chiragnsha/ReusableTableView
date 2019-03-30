@@ -13,6 +13,6 @@ This repo contains extensions and implementation that avoid repeated UITableView
 
 ## Explanation
 ReusableTableViewDataManager expects objects confirming to protocols:
-(i) DataProvider (that provides set of models) 
-(ii) DataBinder (binds model data in cell)
+- DataProvider (that provides set of models) 
+- DataBinder (binds model data in cell)
 
